@@ -5,13 +5,20 @@ dependencies:
   flutter:
     sdk: flutter
 
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.0
+  flutter_refresh: ^0.0.2
+  transparent_image: ^0.1.0
+  video_player: ^0.7.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
+
 
 
 # For information on the generic Dart part of this file, see the
@@ -25,10 +32,61 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
+
+
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/image/more.png
+    - assets/image/like.png
+    - assets/image/comment.png
+    - assets/image/share.png
+
+
+    #message
+    - assets/message/messageadd.png
+    - assets/message/messagecomment.png
+    - assets/message/messagelike.png
+    - assets/message/messagemoney.png
+    - assets/message/messagemore.png
+    - assets/message/messagepush.png
+    - assets/my/edit.png
+    - assets/my/sign.png
+
+    - assets/my/my_guanzhu.png
+    - assets/my/my_like.png
+    - assets/my/my_lock.png
+    - assets/my/my_money.png
+    - assets/my/my_qianbao.png
+    - assets/my/my_shoucang.png
+    - assets/my/my_wenji.png
+    - assets/my/my_zhuanti.png
+
+    - assets/my/my_yejian.png
+    - assets/my/my_shili.png
+    - assets/my/my_fenxiang.png
+    - assets/my/my_fankui.png
+    - assets/my/my_pingfen.png
+
+
+
+    - assets/my/my_01.png
+    - assets/my/my_02.png
+    - assets/my/my_03.png
+    - assets/my/my_04.png
+    - assets/my/my_05.png
+    - assets/my/my_06.png
+    - assets/my/my_07.png
+    - assets/my/my_08.png
+
+
+
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
